@@ -15,12 +15,16 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 
 Plugin 'tpope/vim-fugitive'
+
 " Darcula theme (Intellij IDEA)
 Plugin 'blueshirts/darcula'
+
 " PowerLine
 Plugin 'bling/vim-airline'
+
 " Autoclosable brackets
 Plugin 'Raimondi/delimitMate'
+
 " AutoSaving
 " Plugin 'vim-scripts/vim-auto-save'
 
@@ -82,3 +86,6 @@ set autoread
 
 " активация плагина vim-airline:
 set laststatus=2
+
+" установка шрифта:
+set guifont=DejaVu\ Sans\ Mono\ 9
